@@ -54,7 +54,7 @@ const styleLogin = StyleSheet.create( {
     }
 } );
 
-function Signup() {
+function Signin() {
     return(
         <View style = { styleLogin.loginContainer }>
             <Text style = { styleLogin.loginText }> Girmiti Project </Text>
@@ -76,4 +76,4 @@ function Signup() {
     );
 }
 
-export default Signup;
+export default Signin;
