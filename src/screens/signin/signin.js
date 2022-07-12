@@ -69,7 +69,7 @@ function Signin() {
             <Text style = { styleLogin.forgotPassword } onPress = { () => Linking.openURL('http://google.com') }> Forgot Password ?</Text>
             <View style = { { width: "90%" } }>
                 <TouchableOpacity>
-                    <Button style = { styleLogin.loginButton } title='Sign Up'></Button>
+                    <Button style = { styleLogin.loginButton } title='Sign In'></Button>
                 </TouchableOpacity>
             </View>
         </View>
