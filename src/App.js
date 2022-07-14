@@ -1,12 +1,12 @@
-import React from 'react';
-import { View, Text, TouchableOpacity } from 'react-native';
+import React from 'react'
+import { View, Text } from 'react-native'
 
-import Signin from './screens/signin/index';
-
-function App() {
-  return(
-    <Signin/>
-  );
+const App = () => {
+  return (
+    <View>
+      <Text>App</Text>
+    </View>
+  )
 }
 
 export default App;
