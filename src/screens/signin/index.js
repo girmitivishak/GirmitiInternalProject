@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../../screens/signin/styles';
+import styles from './styles';
 
 import {
     View,
@@ -11,7 +11,7 @@ import {
     Linking
 } from 'react-native';
 
-function Signin() {
+function SignIn() {
     return(
         <View style = { styles.loginContainer }>
             <Text style = { styles.loginText }> Girmiti Project </Text>
@@ -28,9 +28,12 @@ function Signin() {
                 <TouchableOpacity>
                     <Button style = { styles.loginButton } title='Sign In'></Button>
                 </TouchableOpacity>
+                <TouchableOpacity>
+                    <Button style = { styles.loginButton } title='Sign Up'></Button>
+                </TouchableOpacity>
             </View>
         </View>
     );
 }
 
-export default Signin;
+export default SignIn;

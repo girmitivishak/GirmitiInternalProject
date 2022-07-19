@@ -32,15 +32,17 @@ const styles = StyleSheet.create( {
         borderRadius: 25,
         height: 100,
         width: 50,
+        margin: 12,
+        padding: 10,
+        marginBottom: 20,
         alignItems: "center",
         justifyContent: "center",
-        marginTop: 40,
         backgroundColor: "#164C42"
     },
     loginText: {
         margin: 40,
         fontSize: 30,
-        color:"#000"
+        color:"#0000"
     }
 } );
 
