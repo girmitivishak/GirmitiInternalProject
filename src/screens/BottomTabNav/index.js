@@ -2,10 +2,10 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
-import Explore from '../Pages/Explore';
-import Search from '../Pages/Search';
-import Profile from '../Pages/Profile';
-import Settings from '../Pages/Settings';
+import Explore from '../BtmTabNavPages/Explore';
+import Search from '../BtmTabNavPages/Search';
+import Profile from '../BtmTabNavPages/Profile';
+import Settings from '../BtmTabNavPages/Settings';
 
 const BottomTabNav = () => {
   const Tab = createBottomTabNavigator();

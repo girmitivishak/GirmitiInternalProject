@@ -4,8 +4,8 @@ import BottomTabNav from './screens/BottomTabNav';
 
 function App() {
   return(
-    <SignIn/>
-    //<BottomTabNav/>
+    //<SignIn/>
+    <BottomTabNav/>
   );
 }
 
