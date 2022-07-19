@@ -27,6 +27,8 @@ function SignIn() {
             <View style = { { width: "90%" } }>
                 <TouchableOpacity>
                     <Button style = { styles.loginButton } title='Sign In'></Button>
+                </TouchableOpacity>
+                <TouchableOpacity>
                     <Button style = { styles.loginButton } title='Sign Up'></Button>
                 </TouchableOpacity>
             </View>
